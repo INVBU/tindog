@@ -1,0 +1,173 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  position: relative;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+
+.ic{
+  margin: 20px 10px;
+
+}
+
+
+.subt{
+  font-family: 'Montserrat-Black' sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+h1 {
+font-family: 'Montserrat' sans-serif;
+font-size: 3.5rem;
+font-weight: 900;
+line-height: 1.5;
+}
+
+html{
+  font-size: "Montserrat";
+}
+
+/* Navigator Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-size: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-ligth";
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.title-image{
+  width: 50%;
+  transform: rotate(25deg);
+  left:200px;
+  position: absolute;
+
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index:1;
+}
+
+.icons{
+  text-align: center;
+  padding: 5%;
+}
+
+.fas{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+
+h2{
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+  top: 10px;
+  font-family: "Montserrat";
+  position: relative;
+}
+
+.tes{
+ font-size: 1rem;
+ color: #8f8f8f;
+}
+
+/* testimonial section */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+
+}
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+
+    }
+    .title-image{
+    position: static;
+    transform: rotate(0);
+    }
+}
